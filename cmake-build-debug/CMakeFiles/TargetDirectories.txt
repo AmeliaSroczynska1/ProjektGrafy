@@ -1,0 +1,3 @@
+C:/Users/ameli/Documents/Inventor Interoperability/Github/ProjektGrafy/cmake-build-debug/CMakeFiles/ProjektGrafy.dir
+C:/Users/ameli/Documents/Inventor Interoperability/Github/ProjektGrafy/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ameli/Documents/Inventor Interoperability/Github/ProjektGrafy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
