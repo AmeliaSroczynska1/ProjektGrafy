@@ -2,7 +2,8 @@
 // Created by ameli on 22.05.2025.
 //
 
-#define PROJEKTGRAFY_ZAPISDOPLIKU_H
+#define ZAPISDOPLIKU_H
+
 
 #include <iostream>
 #include <fstream>

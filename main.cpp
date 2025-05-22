@@ -1,6 +1,7 @@
 #include <iostream>
 #include "ZapisDoPliku.h"
 #include "GenerowanieGrafu.h"
+#include "Dijkstry.h"
 
 using namespace std;
 
@@ -89,6 +90,16 @@ int main() {
     } else {
         cout << "Nieprawidlowy wybor.\n";
     }
+
+    int start, koniec;
+    cout << "Podaj wierzcholek startowy: ";
+    cin >> start;
+    cout << "Podaj wierzcholek koncowy: ";
+    cin >> koniec;
+
+    Dijkstry::znajdzNajkrotszaSciezkeListowo(obsluga.krawedzie, obsluga.liczbaWierzcholkow, start, koniec);
+    Dijkstry::znajdzNajkrotszaSciezkeMacierzowo(obsluga.krawedzie, obsluga.liczbaWierzcholkow, obsluga.liczbaKrawedzi, start, koniec);
+
 
     return 0;
 }

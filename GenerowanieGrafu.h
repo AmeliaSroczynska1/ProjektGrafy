@@ -1,3 +1,6 @@
+#ifndef GENEROWANIE_GRAFU_H
+#define GENEROWANIE_GRAFU_H
+
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -158,3 +161,5 @@ private:
         return licznik == liczbaKrawedzi;
     }
 };
+
+#endif // GENEROWANIE_GRAFU_H
