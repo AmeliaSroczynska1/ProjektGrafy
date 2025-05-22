@@ -2,6 +2,7 @@
 #include "ZapisDoPliku.h"
 #include "GenerowanieGrafu.h"
 #include "Dijkstry.h"
+#include "Kruskal.h"
 
 using namespace std;
 
@@ -100,6 +101,12 @@ int main() {
     Dijkstry::znajdzNajkrotszaSciezkeListowo(obsluga.krawedzie, obsluga.liczbaWierzcholkow, start, koniec);
     Dijkstry::znajdzNajkrotszaSciezkeMacierzowo(obsluga.krawedzie, obsluga.liczbaWierzcholkow, obsluga.liczbaKrawedzi, start, koniec);
 
+    Kruskal kruskal;
+
+    if (wybor == 1 || wybor == 2) {
+        auto mst = kruskal.wykonajKruskal(obsluga.krawedzie, obsluga.liczbaWierzcholkow);
+        Kruskal::wyswietlMST(mst);
+    }
 
     return 0;
 }

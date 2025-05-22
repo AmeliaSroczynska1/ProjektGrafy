@@ -9,6 +9,8 @@
 #include <random>
 #include <set>
 #include <ctime>
+#include "GenerowanieGrafu.h"
+
 
 using namespace std;
 
@@ -16,6 +18,9 @@ struct Krawedz {
     int poczatek;
     int koniec;
     int waga;
+    bool operator<(const Krawedz& other) const {
+        return waga < other.waga;
+    }
 };
 
 class GenerowanieGrafu {
