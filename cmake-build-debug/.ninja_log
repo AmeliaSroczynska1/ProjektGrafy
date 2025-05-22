@@ -1,3 +1,11 @@
 # ninja log v5
-1	601	7696466420151737	CMakeFiles/ProjektGrafy.dir/main.cpp.obj	95b90df74eef32d4
-604	774	7696466421827185	ProjektGrafy.exe	897c7820d14ebac9
+4	588	7696470913254519	CMakeFiles/ProjektGrafy.dir/main.cpp.obj	95b90df74eef32d4
+101	248	7696472488688666	ProjektGrafy.exe	97440c76b09e6c31
+4	100	7696472487259979	CMakeFiles/ProjektGrafy.dir/ZapisDoPliku.cpp.obj	1a67d2886a339408
+1	209	7696473723972256	build.ninja	f4abef7c835ae51f
+20	699	7696476035033790	CMakeFiles/ProjektGrafy.dir/ZapisDoPliku.cpp.obj	1a67d2886a339408
+11	767	7696476035711994	CMakeFiles/ProjektGrafy.dir/main.cpp.obj	95b90df74eef32d4
+767	920	7696476037178344	ProjektGrafy.exe	97440c76b09e6c31
+10	857	7696478685112029	CMakeFiles/ProjektGrafy.dir/ZapisDoPliku.cpp.obj	1a67d2886a339408
+4	926	7696478685815183	CMakeFiles/ProjektGrafy.dir/main.cpp.obj	95b90df74eef32d4
+926	1121	7696478687667707	ProjektGrafy.exe	97440c76b09e6c31
