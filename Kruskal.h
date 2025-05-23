@@ -14,6 +14,7 @@
 using namespace std;
 
 class Kruskal {
+
     vector<int> rodzic, ranga;
     void inicjalizuj(int n) {
         rodzic.resize(n);
@@ -60,6 +61,26 @@ public:
             suma += k.waga;
         }
         cout << "Calkowity koszt: " << suma << "\n";
+    }
+
+    vector<Krawedz> wykonajKruskalMacierzowo(const vector<vector<int>>& macierz, const vector<int>& wagi, int liczbaWierzcholkow, int liczbaKrawedzi) {
+        vector<Krawedz> krawedzieZMacierzy;
+
+        // Odczytaj krawędzie z macierzy incydencji
+        for (int e = 0; e < liczbaKrawedzi; ++e) {
+            int poczatek = -1, koniec = -1;
+            for (int v = 0; v < liczbaWierzcholkow; ++v) {
+                if (macierz[v][e] == -1) poczatek = v;
+                else if (macierz[v][e] == 1) koniec = v;
+            }
+            // Dla MST traktujemy krawędź jako nieskierowaną, więc unikamy duplikatów
+            if (poczatek != -1 && koniec != -1 && poczatek < koniec) {
+                krawedzieZMacierzy.push_back({poczatek, koniec, wagi[e]});
+            }
+        }
+
+        // Dalej klasyczny Kruskal na liście krawędzi
+        return wykonajKruskal(krawedzieZMacierzy, liczbaWierzcholkow);
     }
 };
 
