@@ -79,6 +79,18 @@ build CMakeFiles/ProjektGrafy.dir/Kruskal.cpp.obj: CXX_COMPILER__ProjektGrafy_De
   OBJECT_DIR = CMakeFiles\ProjektGrafy.dir
   OBJECT_FILE_DIR = CMakeFiles\ProjektGrafy.dir
 
+build CMakeFiles/ProjektGrafy.dir/Prima.cpp.obj: CXX_COMPILER__ProjektGrafy_Debug C$:/Users/ameli/Documents/Inventor$ Interoperability/Github/ProjektGrafy/Prima.cpp || cmake_object_order_depends_target_ProjektGrafy
+  DEP_FILE = CMakeFiles\ProjektGrafy.dir\Prima.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\ProjektGrafy.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProjektGrafy.dir
+
+build CMakeFiles/ProjektGrafy.dir/BellmanaFord.cpp.obj: CXX_COMPILER__ProjektGrafy_Debug C$:/Users/ameli/Documents/Inventor$ Interoperability/Github/ProjektGrafy/BellmanaFord.cpp || cmake_object_order_depends_target_ProjektGrafy
+  DEP_FILE = CMakeFiles\ProjektGrafy.dir\BellmanaFord.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\ProjektGrafy.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProjektGrafy.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ProjektGrafy
@@ -87,7 +99,7 @@ build CMakeFiles/ProjektGrafy.dir/Kruskal.cpp.obj: CXX_COMPILER__ProjektGrafy_De
 #############################################
 # Link the executable ProjektGrafy.exe
 
-build ProjektGrafy.exe: CXX_EXECUTABLE_LINKER__ProjektGrafy_Debug CMakeFiles/ProjektGrafy.dir/main.cpp.obj CMakeFiles/ProjektGrafy.dir/ZapisDoPliku.cpp.obj CMakeFiles/ProjektGrafy.dir/GenerowanieGrafu.cpp.obj CMakeFiles/ProjektGrafy.dir/Dijkstry.cpp.obj CMakeFiles/ProjektGrafy.dir/Kruskal.cpp.obj
+build ProjektGrafy.exe: CXX_EXECUTABLE_LINKER__ProjektGrafy_Debug CMakeFiles/ProjektGrafy.dir/main.cpp.obj CMakeFiles/ProjektGrafy.dir/ZapisDoPliku.cpp.obj CMakeFiles/ProjektGrafy.dir/GenerowanieGrafu.cpp.obj CMakeFiles/ProjektGrafy.dir/Dijkstry.cpp.obj CMakeFiles/ProjektGrafy.dir/Kruskal.cpp.obj CMakeFiles/ProjektGrafy.dir/Prima.cpp.obj CMakeFiles/ProjektGrafy.dir/BellmanaFord.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ProjektGrafy.dir

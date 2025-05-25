@@ -6,7 +6,8 @@
 #include "GenerowanieGrafu.h"
 #include "Dijkstry.h"
 #include "Kruskal.h"
-#include <iomanip>
+#include "Prima.h"
+#include "BellmanaFord.h"
 
 
 using namespace std;
@@ -21,6 +22,12 @@ int main() {
     int n;
     int gestosc;
     mt19937 rng(static_cast<unsigned>(time(nullptr)));
+    long long sumaPrimaList = 0;
+    long long sumaPrimaMac = 0;
+    long long sumaBellmanList = 0;
+    long long sumaBellmanMac = 0;
+
+
 
     // 1. Wczytaj dane z pliku lub wygeneruj graf losowo
     int wybor;
@@ -120,7 +127,55 @@ int main() {
         cout << "Czas wykonania Dijkstry (macierzowo): "
              << czasDijkstraMac << " mikrosekund\n";
 
-        // 4. Algorytm Kruskala wykonywany macierzowo i listowo z wyświetleniem wyników
+        // 4. Algorytm Bellmana-Forda wykonywany macierzowo i listowo z wyświetleniem wyników
+        // Ford-Bellman LISTOWO
+        auto startBellmanList = steady_clock::now();
+        BellmanaFord::znajdzNajkrotszaSciezkeListowo(obsluga.krawedzie, obsluga.liczbaWierzcholkow, start, koniec);
+        auto endBellmanList = steady_clock::now();
+        auto czasBellmanList = duration_cast<microseconds>(endBellmanList - startBellmanList).count();
+        sumaBellmanList += czasBellmanList;
+        cout << "Czas wykonania Bellmana-Forda (listowo): "
+             << czasBellmanList << " mikrosekund\n";
+
+        // Ford-Bellman MACIERZOWO
+        auto startBellmanMac = steady_clock::now();
+        BellmanaFord::znajdzNajkrotszaSciezkeMacierzowo(obsluga.krawedzie, obsluga.liczbaWierzcholkow, obsluga.liczbaKrawedzi, start, koniec);
+        auto endBellmanMac = steady_clock::now();
+        auto czasBellmanMac = duration_cast<microseconds>(endBellmanMac - startBellmanMac).count();
+        sumaBellmanMac += czasBellmanMac;
+        cout << "Czas wykonania Bellmana-Forda (macierzowo): "
+             << czasBellmanMac << " mikrosekund\n";
+
+
+        // 5. Algorytm Prima wykonywany macierzowo i listowo z wyświetleniem wyników
+        Prima prima;
+
+        // Prima LISTOWO
+        auto startPrimaList = steady_clock::now();
+        auto mst_prima_list = prima.wykonajPrimaListowo(obsluga.krawedzie, obsluga.liczbaWierzcholkow);
+        auto endPrimaList = steady_clock::now();
+        auto czasPrimaList = duration_cast<microseconds>(endPrimaList - startPrimaList).count();
+        sumaPrimaList += czasPrimaList;
+        cout << "\n--- Prima LISTOWO ---\n";
+        Prima::wyswietlMST(mst_prima_list);
+        cout << "Czas wykonania Prima (listowo): "
+             << czasPrimaList << " mikrosekund\n";
+
+        // Prima MACIERZOWO
+        auto startPrimaMac = steady_clock::now();
+        auto mst_prima_mac = prima.wykonajPrimaMacierzowo(macierz, wagi, obsluga.liczbaWierzcholkow, obsluga.liczbaKrawedzi);
+        auto endPrimaMac = steady_clock::now();
+        auto czasPrimaMac = duration_cast<microseconds>(endPrimaMac - startPrimaMac).count();
+        sumaPrimaMac += czasPrimaMac;
+        cout << "\n--- Prima MACIERZOWO ---\n";
+        Prima::wyswietlMST(mst_prima_mac);
+        cout << "Czas wykonania Prima (macierzowo): "
+             << czasPrimaMac << " mikrosekund\n";
+
+
+
+
+        // 6. Algorytm Kruskala wykonywany macierzowo i listowo z wyświetleniem wyników
         Kruskal kruskal;
 
         // Kruskal LISTOWO
@@ -147,6 +202,10 @@ int main() {
              << czasKruskalMac << " mikrosekund\n";
     }
 
+    double srBellmanList = (double)sumaBellmanList / liczba_iteracji;
+    double srBellmanMac = (double)sumaBellmanMac / liczba_iteracji;
+    double srPrimaList = (double)sumaPrimaList / liczba_iteracji;
+    double srPrimaMac = (double)sumaPrimaMac / liczba_iteracji;
     double srDijkstraList = (double)sumaDijkstraList / liczba_iteracji;
     double srDijkstraMac = (double)sumaDijkstraMac / liczba_iteracji;
     double srKruskalList = (double)sumaKruskalList / liczba_iteracji;
@@ -156,7 +215,9 @@ int main() {
     if (zapis.otworz()) {
         zapis.zapiszSrednieCzasy(liczba_iteracji, n, gestosc,
                                  srDijkstraList, srDijkstraMac,
-                                 srKruskalList, srKruskalMac);
+                                 srKruskalList, srKruskalMac,
+                                 srPrimaList, srPrimaMac,
+                                 srBellmanList, srBellmanMac);
         zapis.zamknij();
     } else {
         cout << "Nie udalo sie otworzyc pliku output.txt do zapisu wynikow.\n";

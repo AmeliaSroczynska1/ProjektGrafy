@@ -49,18 +49,25 @@ public:
 
     void zapiszSrednieCzasy(int liczbaIteracji, int n, int gestosc,
                             double srDijkstraList, double srDijkstraMac,
-                            double srKruskalList, double srKruskalMac) {
+                            double srKruskalList, double srKruskalMac,
+                            double srPrimaList, double srPrimaMac,
+                            double srBellmanList, double srBellmanMac) {
         if (plik.is_open()) {
             plik << fixed << setprecision(4);
             plik << "\n \n======= SREDNIE CZASY WYKONANIA ALGORYTMOW (" << liczbaIteracji << " iteracji, "
                  << n << " wierzcholkow, " << gestosc << "% gestosci) =======\n";
-            plik << "Sredni czas wykonywania algorytmu Dijkstry (listowo):    " << srDijkstraList << " mikrosekund\n";
-            plik << "Sredni czas wykonywania algorytmu Dijkstry (macierzowo): " << srDijkstraMac << " mikrosekund\n";
-            plik << "Sredni czas wykonywania algorytmu Kruskala (listowo):    " << srKruskalList << " mikrosekund\n";
-            plik << "Sredni czas wykonywania algorytmu Kruskala (macierzowo): " << srKruskalMac << " mikrosekund\n";
+            plik << "Sredni czas wykonywania algorytmu Dijkstry (listowo):           " << srDijkstraList << " mikrosekund\n";
+            plik << "Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        " << srDijkstraMac << " mikrosekund\n";
+            plik << "Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     " << srBellmanList << " mikrosekund\n";
+            plik << "Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  " << srBellmanMac << " mikrosekund\n";
+            plik << "Sredni czas wykonywania algorytmu Kruskala (listowo):           " << srKruskalList << " mikrosekund\n";
+            plik << "Sredni czas wykonywania algorytmu Kruskala (macierzowo):        " << srKruskalMac << " mikrosekund\n";
+            plik << "Sredni czas wykonywania algorytmu Prima (listowo):              " << srPrimaList << " mikrosekund\n";
+            plik << "Sredni czas wykonywania algorytmu Prima (macierzowo):           " << srPrimaMac << " mikrosekund\n";
         } else {
             cout << "Plik nie jest otwarty :((\n";
         }
     }
+
 
 };
