@@ -51,7 +51,7 @@ public:
     }
 
     // Generuje losowy graf spójny o zadanej liczbie wierzchołków i gęstości (w %)
-    void generujLosowyGraf(int wierzcholki, double gestosc, int minWaga = 1, int maxWaga = 10) {
+    void generujLosowyGraf(int wierzcholki, int gestosc, mt19937& rng, int minWaga = 1, int maxWaga = 20) {
         liczbaWierzcholkow = wierzcholki;
         int maxKrawedzi = wierzcholki * (wierzcholki - 1); // dla grafu skierowanego
         liczbaKrawedzi = static_cast<int>(gestosc / 100.0 * maxKrawedzi);
@@ -62,7 +62,6 @@ public:
         krawedzie.clear();
         set<pair<int, int>> istnieje;
 
-        mt19937 rng(static_cast<unsigned>(time(nullptr)));
         uniform_int_distribution<int> wagaDist(minWaga, maxWaga);
 
         // 1. Najpierw generowanie drzewa rozpinającego (żeby była spójność)
@@ -129,7 +128,6 @@ public:
                 macierz[v][e] = 1;
             }
         }
-        cout << "Macierz incydencji (" << liczbaWierzcholkow << " wierzcholkow x " << liczbaKrawedzi << " krawedzi):\n";
         for (int i = 0; i < liczbaWierzcholkow; ++i) {
             for (int j = 0; j < liczbaKrawedzi; ++j) {
                 cout << macierz[i][j] << " ";

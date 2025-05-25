@@ -1,0 +1,14 @@
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (23 iteracji, 34 wierzcholkow, 23% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):    1394.2609 mikrosekund
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo): 1461.7826 mikrosekund
+Sredni czas wykonywania algorytmu Kruskala (listowo):    58.7826 mikrosekund
+Sredni czas wykonywania algorytmu Kruskala (macierzowo): 168.8261 mikrosekund
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (1 iteracji, 6 wierzcholkow, 50% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):    832.0000 mikrosekund
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo): 757.0000 mikrosekund
+Sredni czas wykonywania algorytmu Kruskala (listowo):    8.0000 mikrosekund
+Sredni czas wykonywania algorytmu Kruskala (macierzowo): 26.0000 mikrosekund

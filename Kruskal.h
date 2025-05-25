@@ -73,11 +73,15 @@ public:
                 if (macierz[v][e] == -1) poczatek = v;
                 else if (macierz[v][e] == 1) koniec = v;
             }
-            // Dla MST traktujemy krawędź jako nieskierowaną, więc unikamy duplikatów
-            if (poczatek != -1 && koniec != -1 && poczatek < koniec) {
-                krawedzieZMacierzy.push_back({poczatek, koniec, wagi[e]});
+            if (poczatek != -1 && koniec != -1) {
+                // Zawsze dodawaj krawędź, a przed wywołaniem Kruskala usuń duplikaty
+                if (poczatek < koniec)
+                    krawedzieZMacierzy.push_back({poczatek, koniec, wagi[e]});
+                else
+                    krawedzieZMacierzy.push_back({koniec, poczatek, wagi[e]});
             }
         }
+
 
         // Dalej klasyczny Kruskal na liście krawędzi
         return wykonajKruskal(krawedzieZMacierzy, liczbaWierzcholkow);
