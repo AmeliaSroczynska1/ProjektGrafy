@@ -1,33 +1,243 @@
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 100 wierzcholkow, 25% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           0.5453 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        3.0864 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     3.0295 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  203.8606 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           0.4233 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        2.4874 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              0.8044 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           4.7402 ms
 
  
-======= SREDNIE CZASY WYKONANIA ALGORYTMOW (3 iteracji, 3 wierzcholkow, 2% gestosci) =======
-Sredni czas wykonywania algorytmu Dijkstry (listowo):    832.0000 mikrosekund
-Sredni czas wykonywania algorytmu Dijkstry (macierzowo): 857.6667 mikrosekund
-Sredni czas wykonywania algorytmu Bellmana-Forda (listowo): 915.0000 mikrosekund
-Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo): 862.3333 mikrosekund
-Sredni czas wykonywania algorytmu Kruskala (listowo):    8.0000 mikrosekund
-Sredni czas wykonywania algorytmu Kruskala (macierzowo): 6.0000 mikrosekund
-Sredni czas wykonywania algorytmu Prima (listowo):       10.6667 mikrosekund
-Sredni czas wykonywania algorytmu Prima (macierzowo):    7.0000 mikrosekund
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 100 wierzcholkow, 50% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           0.7008 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        6.4703 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     5.9471 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  428.2452 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           0.8733 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        5.2836 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              1.2407 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           10.4493 ms
 
  
-======= SREDNIE CZASY WYKONANIA ALGORYTMOW (1 iteracji, 32 wierzcholkow, 2% gestosci) =======
-Sredni czas wykonywania algorytmu Dijkstry (listowo):    881.0000 mikrosekund
-Sredni czas wykonywania algorytmu Dijkstry (macierzowo): 873.0000 mikrosekund
-Sredni czas wykonywania algorytmu Bellmana-Forda (listowo): 892.0000 mikrosekund
-Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo): 1305.0000 mikrosekund
-Sredni czas wykonywania algorytmu Kruskala (listowo):    33.0000 mikrosekund
-Sredni czas wykonywania algorytmu Kruskala (macierzowo): 51.0000 mikrosekund
-Sredni czas wykonywania algorytmu Prima (listowo):       89.0000 mikrosekund
-Sredni czas wykonywania algorytmu Prima (macierzowo):    116.0000 mikrosekund
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 100 wierzcholkow, 99% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           1.1315 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        15.1888 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     12.7492 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  1039.9669 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           1.8531 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        11.4318 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              2.1518 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           23.4558 ms
 
  
-======= SREDNIE CZASY WYKONANIA ALGORYTMOW (4 iteracji, 23 wierzcholkow, 32% gestosci) =======
-Sredni czas wykonywania algorytmu Dijkstry (listowo):          1277.2500 mikrosekund
-Sredni czas wykonywania algorytmu Dijkstry (macierzowo):       1392.7500 mikrosekund
-Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):    1318.7500 mikrosekund
-Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo): 2048.0000 mikrosekund
-Sredni czas wykonywania algorytmu Kruskala (listowo):          46.5000 mikrosekund
-Sredni czas wykonywania algorytmu Kruskala (macierzowo):       100.2500 mikrosekund
-Sredni czas wykonywania algorytmu Prima (listowo):             96.5000 mikrosekund
-Sredni czas wykonywania algorytmu Prima (macierzowo):          131.5000 mikrosekund
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 200 wierzcholkow, 25% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           1.9482 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        31.6014 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     25.5876 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  3613.1637 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           1.9096 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        18.5949 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              2.9768 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           49.5936 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 200 wierzcholkow, 50% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           2.6822 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        73.7518 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     47.5612 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  7349.0092 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           4.0315 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        39.4555 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              4.8658 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           127.7497 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 200 wierzcholkow, 99% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           3.9869 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        185.7251 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     95.5265 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  16056.4793 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           8.5259 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        79.6401 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              8.2611 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           341.2395 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 300 wierzcholkow, 25% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           4.2511 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        153.4151 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     83.7560 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  20280.3848 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           4.5684 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        63.8100 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              6.6970 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           285.1919 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 300 wierzcholkow, 50% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           9.1100 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        493.8454 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     220.9612 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  45413.3992 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           12.5953 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        164.2364 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              14.3055 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           896.2291 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 300 wierzcholkow, 99% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           9.5098 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        680.7714 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     330.8137 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  84643.4984 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           21.1789 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        256.1293 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              20.2561 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           1274.7119 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 400 wierzcholkow, 25% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           7.9079 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        471.5531 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     208.6407 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  62572.6933 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           10.0521 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        161.4714 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              14.1836 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           846.0974 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 400 wierzcholkow, 50% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           12.0532 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        1035.0409 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     458.2638 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  139024.5011 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           20.2480 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        384.2936 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              21.9331 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           1882.6118 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 400 wierzcholkow, 99% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           23.3468 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        2622.6330 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     1113.3330 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  327837.9320 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           53.5875 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        846.7463 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              48.9299 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           4958.4894 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 500 wierzcholkow, 25% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           15.2472 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        1078.9122 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     477.0780 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  220948.9110 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           18.9028 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        387.2076 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              24.4622 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           1985.3614 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 500 wierzcholkow, 50% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           31.6396 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        3555.5014 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     1498.7066 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  438616.7080 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           54.7682 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        1165.4794 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              64.5972 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           6947.7416 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 500 wierzcholkow, 99% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           38.2306 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        6364.3666 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     2736.0020 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  1254118.9994 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           150.2620 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        2674.6868 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              89.1216 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           12843.8092 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 600 wierzcholkow, 25% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           25.6465 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        2499.3491 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     1036.7305 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  459460.7645 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           31.4215 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        744.3294 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              41.0169 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           4456.5602 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 600 wierzcholkow, 50% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           25.5803 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        3781.0405 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     1614.8204 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  1261243.6712 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           72.9561 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        2158.7057 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              78.6925 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           10054.1764 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 600 wierzcholkow, 99% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           54.9561 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        9292.3945 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     3802.7519 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  1793328.5440 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           105.63733 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        2759.1689 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              105.2545 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           13944.9827 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 700 wierzcholkow, 25% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           24.2867 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        2402.5571 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     1130.3807 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  747121.86233 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           34.8445 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        1119.2630 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              68.5658 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           4254.3592 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 700 wierzcholkow, 50% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           35.0360 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        6134.1463 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     2273.5362 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  1716588.5758 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           66.8845 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        1976.8268 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              57.1642 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           8649.6847 ms
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (50 iteracji, 700 wierzcholkow, 99% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           75.2709 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        15075.4553 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     5353.9721 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  2440771.2553 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           96.8542 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        2526.7032 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              76.4643 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           11996.9712 ms
+
+
+
+
+ 
+======= SREDNIE CZASY WYKONANIA ALGORYTMOW (1 iteracji, 256 wierzcholkow, 681% gestosci) =======
+Sredni czas wykonywania algorytmu Dijkstry (listowo):           1.2190 ms
+Sredni czas wykonywania algorytmu Dijkstry (macierzowo):        0.7090 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (listowo):     0.4940 ms
+Sredni czas wykonywania algorytmu Bellmana-Forda (macierzowo):  0.4830 ms
+Sredni czas wykonywania algorytmu Kruskala (listowo):           0.0000 ms
+Sredni czas wykonywania algorytmu Kruskala (macierzowo):        0.0000 ms
+Sredni czas wykonywania algorytmu Prima (listowo):              0.0000 ms
+Sredni czas wykonywania algorytmu Prima (macierzowo):           0.0000 ms

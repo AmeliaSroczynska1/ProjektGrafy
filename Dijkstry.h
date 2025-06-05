@@ -97,7 +97,7 @@ public:
 
 private:
     static void wyswietlWynik(const vector<int>& odleglosc, const vector<int>& poprzednik, int start, int koniec, const std::string& typ) {
-        cout << "--- Dijkstry (" << typ << ") ---\n";
+        cout << "\n--- Dijkstry (" << typ << ") ---\n";
         if (odleglosc[koniec] == numeric_limits<int>::max()) {
             cout << "Brak sciezki z " << start << " do " << koniec << "\n";
             return;
